@@ -17,10 +17,11 @@ func sayHello() {
 //: Notice that the playground doesn't show anything to the left of the `print` statement. That's because this code hasn't run. We've created a function called `sayHello`, and described what that function does, but we havn't run the `sayHello` function yet.
 //: In order to run it, we have to *call* the `sayHello` function. Let's do that now by uncommenting this line (We comment out a line by putting // in front of the line of code. This makes the playground not run this line of code. To uncomment a line remove the // from the front of it. This will allow the playground to run this line of code):
 
-//sayHello()
+sayHello()
 
 //: The power of writing a function is that we can now repeat this code whenever we want. Feel free to call `sayHello` a few times below:
-
+sayHello()
+sayHello()
 //: Now our `sayHello` function is pretty cool, but we might want to say hello to a specific person.
 //: Functions can take one or more "parameters" or inputs, and do something with that input. Take this example function:
 
@@ -35,7 +36,10 @@ func greet(name: String) {
 //: Try to call this function with your name, so it greets you.
 //:
 //: Hint: put your name, wrapped in quotes, between the parentheses `()`.
+greet(name: "paul")
 
+
+    
 
 
 
